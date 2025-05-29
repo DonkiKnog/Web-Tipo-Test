@@ -1,0 +1,256 @@
+{
+  "examen": "Derecho Internacional Público - Oposiciones Cuerpo Diplomático España",
+  "fuente": "GRUPO I VIEJO-1-9.pdf",
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Según el Art. 38.1 del Estatuto del TIJ, ¿cuál de las siguientes NO es una fuente autónoma del Derecho Internacional?",
+      "opciones": {
+        "a": "Tratados internacionales",
+        "b": "Costumbre internacional",
+        "c": "Doctrina de los publicistas",
+        "d": "Principios generales del Derecho"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La doctrina es un medio auxiliar según el Art. 38.1 del Estatuto del TIJ, no una fuente autónoma."
+    },
+    {
+      "id": 2,
+      "pregunta": "La regla de la 'objeción persistente' en la costumbre internacional permite que un Estado:",
+      "opciones": {
+        "a": "Modifique unilateralmente una costumbre general",
+        "b": "Quede exento de una costumbre si se opuso durante su formación",
+        "c": "Imponga una costumbre regional a otros Estados",
+        "d": "Derogue tratados mediante actos unilaterales"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La objeción persistente exime a un Estado de una costumbre general si demostró oposición constante durante su formación (ej. Caso anglo-noruego de pesquerías, 1951)."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué elemento de la costumbre internacional se refiere a la convicción de que una práctica es obligatoria?",
+      "opciones": {
+        "a": "Elemento material (usus)",
+        "b": "Opinio iuris sive necessitatis",
+        "c": "Principio de reciprocidad",
+        "d": "Ius cogens"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "El elemento subjetivo (opinio iuris) es la convicción de que la práctica es jurídicamente obligatoria, no solo habitual."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué tipo de acto unilateral implica el abandono de un derecho por parte de un Estado?",
+      "opciones": {
+        "a": "Notificación",
+        "b": "Promesa",
+        "c": "Renuncia",
+        "d": "Reconocimiento"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La renuncia es la manifestación de voluntad para abandonar un derecho (ej. desistimiento en procesos ante el TIJ)."
+    },
+    {
+      "id": 5,
+      "pregunta": "Según el TIJ, ¿qué órgano estatal puede vincular internacionalmente a un Estado mediante una declaración unilateral?",
+      "opciones": {
+        "a": "Cualquier ministro del gobierno",
+        "b": "Solo el Jefe de Estado, Jefe de Gobierno o Ministro de Asuntos Exteriores",
+        "c": "El Parlamento nacional",
+        "d": "Los tribunales constitucionales"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Art. 7 de la Convención de Viena (1969) y jurisprudencia del TIJ (ej. asunto Groenlandia Oriental, 1933)."
+    },
+    {
+      "id": 6,
+      "pregunta": "Las resoluciones de la Asamblea General de la ONU pueden influir en la costumbre internacional mediante:",
+      "opciones": {
+        "a": "Efecto declarativo, cristalizador o constitutivo",
+        "b": "Derogación automática de tratados",
+        "c": "Imposición de sanciones económicas",
+        "d": "Creación directa de ius cogens"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "Pueden reflejar opinio iuris (declarativo), consolidar prácticas (cristalizador) o generar nuevas normas (constitutivo)."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de principio general del Derecho Internacional reconocido en la Resolución 2625 (XXV) de la ONU?",
+      "opciones": {
+        "a": "Prohibición del uso de la fuerza",
+        "b": "Inmunidad diplomática absoluta",
+        "c": "Libre circulación de capitales",
+        "d": "Soberanía monetaria exclusiva"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La Resolución 2625 (1970) incluye principios como la prohibición de la fuerza, igualdad soberana y solución pacífica de controversias."
+    },
+    {
+      "id": 8,
+      "pregunta": "Las normas de ius cogens se caracterizan por:",
+      "opciones": {
+        "a": "Ser derogables por tratados entre Estados",
+        "b": "Proteger valores fundamentales de la comunidad internacional",
+        "c": "Aplicarse solo a Estados que las reconozcan expresamente",
+        "d": "Ser equivalentes a las costumbres regionales"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Definición del Art. 53 de la Convención de Viena (1969): normas imperativas que protegen intereses esenciales."
+    },
+    {
+      "id": 9,
+      "pregunta": "Según el Art. 53 de la Convención de Viena (1969), un tratado contrario al ius cogens es:",
+      "opciones": {
+        "a": "Válido si todos los Estados lo ratifican",
+        "b": "Nulo de pleno derecho",
+        "c": "Renegociable después de 10 años",
+        "d": "Válido solo para Estados no miembros de la ONU"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Art. 53 CV: los tratados contrarios a ius cogens son nulos automáticamente."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué caso del TIJ confirmó por primera vez explícitamente la existencia del ius cogens?",
+      "opciones": {
+        "a": "Lotus (1927)",
+        "b": "Actividades armadas en el Congo (2006)",
+        "c": "Anglo-Noruego de Pesquerías (1951)",
+        "d": "Nicaragua c. EE.UU. (1986)"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Sentencia de 2006 (RDC c. Ruanda), donde el TIJ reconoció explícitamente normas de ius cogens como la prohibición del genocidio."
+    },
+    {
+      "id": 11,
+      "pregunta": "En el caso Yerodia (2002), el TIJ resolvió que los ministros de Asuntos Exteriores en ejercicio:",
+      "opciones": {
+        "a": "Carecen de inmunidad penal internacional",
+        "b": "Gozan de inmunidad de jurisdicción penal absoluta",
+        "c": "Podían ser juzgados solo por tribunales nacionales",
+        "d": "Pierden inmunidad si cometen crímenes de guerra"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "El TIJ afirmó la inmunidad absoluta de los ministros de AA.EE. en ejercicio, incluso por crímenes internacionales."
+    },
+    {
+      "id": 12,
+      "pregunta": "La doctrina como medio auxiliar para determinar normas internacionales incluye:",
+      "opciones": {
+        "a": "Solo las sentencias del TIJ",
+        "b": "Escritos de juristas y votos particulares de jueces internacionales",
+        "c": "Resoluciones del Consejo de Seguridad",
+        "d": "Legislación interna de los Estados"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Art. 38.1.d del Estatuto del TIJ: doctrina de publicistas y votos particulares como medios auxiliares."
+    },
+    {
+      "id": 13,
+      "pregunta": "En el caso Lotus (1927), la Corte Permanente de Justicia Internacional falló que Turquía:",
+      "opciones": {
+        "a": "No tenía jurisdicción sobre un buque francés en alta mar",
+        "b": "Podía ejercer jurisdicción porque el daño afectó a un buque turco",
+        "c": "Debía aplicar una costumbre regional europea",
+        "d": "Violó el ius cogens al enjuiciar al capitán francés"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "El TPJI admitió la jurisdicción turca al considerar que no existía costumbre que prohibiera enjuiciar hechos con efectos en su territorio."
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué efecto tiene un tratado que codifica una costumbre preexistente?",
+      "opciones": {
+        "a": "Efecto constitutivo (crea nueva norma)",
+        "b": "Efecto cristalizador (consolida la costumbre)",
+        "c": "Deroga automáticamente la costumbre",
+        "d": "Limita la aplicación a Estados parte del tratado"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "El tratado puede cristalizar una costumbre en formación al aportar opinio iuris (ej. Convención de Viena sobre Relaciones Diplomáticas)."
+    },
+    {
+      "id": 15,
+      "pregunta": "Según el TIJ, una costumbre local puede formarse entre:",
+      "opciones": {
+        "a": "Solo Estados miembros de la ONU",
+        "b": "Dos o más Estados, sin necesidad de un número mayor",
+        "c": "Exclusivamente Estados vecinos",
+        "d": "Estados con sistemas jurídicos similares"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Sentencia del Caso del Derecho de Paso por Territorio Indio (1960): basta con dos Estados para una costumbre local."
+    },
+    {
+      "id": 16,
+      "pregunta": "La Comisión de Derecho Internacional (CDI) es un órgano:",
+      "opciones": {
+        "a": "Judicial dependiente del TIJ",
+        "b": "De la ONU para la codificación y desarrollo progresivo del Derecho Internacional",
+        "c": "Exclusivo para resolver conflictos interestatales",
+        "d": "Integrado solo por jueces internacionales"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Órgano técnico de la ONU creado en 1947 para codificar y desarrollar el DI (ej. proyectos sobre responsabilidad internacional)."
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué tipo de acto unilateral es una declaración de un Estado de no usar armas nucleares en primer lugar?",
+      "opciones": {
+        "a": "Notificación",
+        "b": "Promesa",
+        "c": "Renuncia",
+        "d": "Reconocimiento"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Es una promesa (manifestación de voluntad para asumir una conducta futura), como la de la URSS en la Guerra Fría."
+    },
+    {
+      "id": 18,
+      "pregunta": "La prohibición del genocidio es considerada norma de ius cogens porque:",
+      "opciones": {
+        "a": "Solo se aplica a Estados miembros de la Corte Penal Internacional",
+        "b": "Protege un valor esencial de la comunidad internacional",
+        "c": "Fue establecida por un tratado multilateral",
+        "d": "Depende de la ratificación estatal"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Reconocida como ius cogens por proteger valores universales (Convención sobre Genocidio de 1948 y jurisprudencia del TIJ)."
+    },
+    {
+      "id": 19,
+      "pregunta": "En el caso Nicaragua c. EE.UU. (1986), el TIJ determinó que las resoluciones de la ONU:",
+      "opciones": {
+        "a": "Pueden reflejar opinio iuris para probar costumbre",
+        "b": "Tienen efecto vinculante igual que los tratados",
+        "c": "Derogan el ius cogens",
+        "d": "Solo aplican a Estados miembros del Consejo de Seguridad"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "El TIJ usó resoluciones de la AGNU como prueba de opinio iuris para confirmar la costumbre sobre prohibición de la fuerza."
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué artículo de la Convención de Viena sobre Derecho de los Tratados regula la nulidad por incompatibilidad con ius cogens?",
+      "opciones": {
+        "a": "Artículo 38",
+        "b": "Artículo 53",
+        "c": "Artículo 62",
+        "d": "Artículo 75"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "Art. 53 CV: 'Es nulo todo tratado que [...] esté en oposición con una norma imperativa de derecho internacional general (ius cogens)'."
+    }
+  ],
+  "metadata": {
+    "total_preguntas": 20,
+    "temas_principales": ["Fuentes del DI", "Costumbre internacional", "Actos unilaterales", "Ius cogens", "Jurisprudencia del TIJ"],
+    "referencias": [
+      "Estatuto del TIJ (Art. 38)",
+      "Convención de Viena sobre Derecho de los Tratados (1969)",
+      "Resolución 2625 (XXV) de la AGNU",
+      "Jurisprudencia clave: Lotus, Nicaragua, Yerodia, Congo c. Ruanda"
+    ]
+  }
+}
