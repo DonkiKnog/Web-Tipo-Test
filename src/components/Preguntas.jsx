@@ -1,38 +1,48 @@
 import {useState, useEffect} from "react";
 import Swal from "sweetalert2";
 
-const Preguntas = ({estoyPreguntas, setEstoyPreguntas, preguntas, setEstoyResultados, setAleatorio, aleatorio, setRespuestas}) => {
+const Preguntas = ({estoyPreguntas, setEstoyPreguntas, preguntas, setEstoyResultados, setAleatorio, aleatorio, respuestas, setRespuestas, setEstoyTest}) => {
 
-    let preguntasConOpcionesMezcladas;
+    let preguntasMezcladas;
 
     useEffect(() => {
         if (preguntas.length > 1) {
             setEstoyPreguntas(true);
-            const preguntasMezcladas = [...preguntas].sort(() => Math.random() - 0.5)
-            preguntasConOpcionesMezcladas = preguntasMezcladas.map((pregunta) => ({
-                ...pregunta,
-                opciones: Object.fromEntries(Object.entries(pregunta.opciones).sort(() => Math.random() - 0.5))
-            }))
+            preguntasMezcladas = [...preguntas].sort(() => Math.random() - 0.5)
         }
-        setAleatorio(preguntasConOpcionesMezcladas)
+        setAleatorio(preguntasMezcladas)
     }, [preguntas])
 
     const enviarRespuestas = () => {
-        Swal.fire({
-            title: "¿SEGURA QUE QUIERES ENVÍAR LAS RESPUESTAS?",
-            icon: "question",
-            imageWidth: 80,  
-            imageHeight: 80, 
-            showCancelButton: true,
-            confirmButtonText: "SÍ, SOY BUENÍSIMA",
-            cancelButtonText: "No espera que beba agua primero"})
-            .then((result) => {
-                if (result.isConfirmed) {
-                    setEstoyPreguntas(false)
-                    setEstoyResultados(true)
-                }
-            }
-        )
+        console.log(respuestas.length);
+        
+        if (Object.keys(respuestas).length===20) {
+            Swal.fire({
+                title: "¿SEGURA QUE QUIERES ENVÍAR LAS RESPUESTAS?",
+                icon: "question",
+                imageWidth: 80,  
+                imageHeight: 80, 
+                showCancelButton: true,
+                confirmButtonText: "SÍ, SOY BUENÍSIMA",
+                cancelButtonText: "No espera que beba agua primero"})
+                .then((result) => {
+                    if (result.isConfirmed) {
+                        setEstoyPreguntas(false)
+                        setEstoyTest(false)
+                        setEstoyResultados(true)
+                    }
+                })
+        } else {
+            Swal.fire({
+                title: "Sabes que no has contestado a todas las preguntas, ¿verdad?",
+                icon: "warning",
+                imageWidth: 80,  
+                imageHeight: 80, 
+                showCancelButton: false,
+                confirmButtonText: "Upsie, no me he dado cuenta"
+            })
+        }
+        
     }
 
     const handleRadioChange = (pregunta, opcion) => {

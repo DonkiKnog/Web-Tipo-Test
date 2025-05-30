@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Filtrar = ({test, setEstoyResultados, setPreguntas}) => {
+const Filtrar = ({test, setEstoyResultados, setPreguntas, estoyTest}) => {
 
     const [tema, setTema] = useState('')
     const [temaElegido, setTemaElegido] = useState("") 
@@ -22,8 +22,9 @@ const Filtrar = ({test, setEstoyResultados, setPreguntas}) => {
         }
     }
 
-    return (
-        <div>
+    if (estoyTest) {
+        return(
+                    <div>
             <form>
                 <input value={tema} onChange={handleChange}/>
                 <input disabled={true} value={temaElegido}/>
@@ -31,6 +32,11 @@ const Filtrar = ({test, setEstoyResultados, setPreguntas}) => {
                 <button type="button" onClick={buscar}>Empezar test</button>
             </form>
         </div>
+        )
+    }
+
+    return (
+        <div></div>
     )
 
 }

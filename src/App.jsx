@@ -8,10 +8,11 @@ import Respuestas from './components/Respuestas.jsx'
 function App() {
   const [test, setTest] = useState(null)
   const [preguntas, setPreguntas] = useState([])
+  const [estoyTest, setEstoyTest] = useState(true)
   const [estoyPreguntas, setEstoyPreguntas] = useState(false)
   const [estoyResultados, setEstoyResultados] = useState(false)
   const [aleatorio, setAleatorio] = useState([])
-  const [respuestas, setRespuestas] = useState('')
+  const [respuestas, setRespuestas] = useState([])
 
   useEffect(() => {
     setTest(tema)
@@ -20,9 +21,9 @@ function App() {
   
   return (
     <div>
-      <Filtrar test={test} setEstoyResultados={setEstoyResultados} setPreguntas={setPreguntas}/>
-      <Preguntas estoyPreguntas={estoyPreguntas} setEstoyPreguntas={setEstoyPreguntas} preguntas={preguntas} setEstoyResultados={setEstoyResultados} setAleatorio={setAleatorio} aleatorio={aleatorio} setRespuestas={setRespuestas}/>
-      <Respuestas test={test} setEstoyPreguntas={setEstoyPreguntas} estoyResultados={estoyResultados} setEstoyResultados={setEstoyResultados} aleatorio={aleatorio} respuestas={respuestas}/>
+      <Filtrar test={test} setEstoyResultados={setEstoyResultados} setPreguntas={setPreguntas} estoyTest={estoyTest}/>
+      <Preguntas estoyPreguntas={estoyPreguntas} setEstoyPreguntas={setEstoyPreguntas} preguntas={preguntas} setEstoyResultados={setEstoyResultados} setAleatorio={setAleatorio} aleatorio={aleatorio} respuestas={respuestas} setRespuestas={setRespuestas} setEstoyTest={setEstoyTest}/>
+      <Respuestas test={test} setEstoyPreguntas={setEstoyPreguntas} estoyResultados={estoyResultados} setEstoyResultados={setEstoyResultados} aleatorio={aleatorio} respuestas={respuestas} setRespuestas={setRespuestas} setEstoyTest={setEstoyTest}/>
     </div>
   )
 }
