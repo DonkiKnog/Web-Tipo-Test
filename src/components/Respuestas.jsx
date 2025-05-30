@@ -32,8 +32,8 @@ const Respuestas = ({test, setEstoyPreguntas, estoyResultados, setEstoyResultado
                     </div>
                 ))}
                 <div>
-                    <p>Preguntas acertadas: {20-fallos}/20</p>
-                    <p>Porcentaje de acierto: {((20-fallos)*100)/20}%</p>
+                    {20-fallos<10 ? <div className='acierto'><p>Preguntas acertadas: <span>{20-fallos}</span>/20</p></div> : <div className='fallo'><p>Preguntas acertadas: <span>{20-fallos}</span>/20</p></div>}
+                    {((20-fallos)*100)/20 > 50 ? <div className='acierto'><p>Porcentaje de acierto: <span>{((20-fallos)*100)/20}%</span></p></div> : <div className='fallos'><p>Porcentaje de acierto: <span>{((20-fallos)*100)/20}%</span></p></div>}
                 </div>
                 <button onClick={handleClick}>Cerrar test</button>
             </>
