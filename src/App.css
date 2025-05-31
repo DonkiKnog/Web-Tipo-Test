@@ -21,13 +21,11 @@ legend{
   max-width: 2em;
 }
 
-#titulotena{
-  max-width: 50em;
-  width: 100%;
+#titulotema{
+  border: 1px solid grey;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  #titulotena {
-    max-width: 90%;
-  }
+#titulotema span{
+  text-align: center;
 }

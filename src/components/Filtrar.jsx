@@ -24,10 +24,11 @@ const Filtrar = ({test, setEstoyResultados, setPreguntas, estoyTest}) => {
 
     if (estoyTest) {
         return(
-                    <div>
+        <div>
             <form>
                 <input id="numerotema" value={tema} onChange={handleChange}/>
-                <input id="titulotena" disabled={true} value={temaElegido}/>
+                <br/>
+                <div id="titulotema"><span>{temaElegido}</span></div>
                 <br/>
                 <button type="button" onClick={buscar}>Empezar test</button>
             </form>
