@@ -22,6 +22,12 @@ legend{
 }
 
 #titulotena{
-  min-width: none;
-  width: 43em;
+  max-width: 50em;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #titulotena {
+    max-width: 90%;
+  }
 }
