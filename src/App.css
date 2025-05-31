@@ -22,5 +22,6 @@ legend{
 }
 
 #titulotena{
-  min-width: 43em;
+  min-width: none;
+  width: 43em;
 }
