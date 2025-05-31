@@ -29,7 +29,6 @@ const Filtrar = ({test, setEstoyResultados, setPreguntas, estoyTest}) => {
                 <input id="numerotema" value={tema} onChange={handleChange}/>
                 <br/>
                 <div id="titulotema"><span>{temaElegido}</span></div>
-                <br/>
                 <button type="button" onClick={buscar}>Empezar test</button>
             </form>
         </div>

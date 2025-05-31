@@ -57,7 +57,7 @@ const Preguntas = ({estoyPreguntas, setEstoyPreguntas, preguntas, setEstoyResult
         <>
             {aleatorio.map(pregunta => (
                 <div key={pregunta.id}>
-                    <fieldset>
+                    <fieldset className="preguntas">
                         <legend>{pregunta.pregunta}</legend>
                         <form>
                             {Object.keys(pregunta.opciones).map((opcion) => (

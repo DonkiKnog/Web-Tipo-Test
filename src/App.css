@@ -13,11 +13,20 @@
   color: red;
 }
 
+.preguntas{
+  margin: 2.5% 0 2.5% 0
+}
+
+.preguntas div{
+  text-align: left;
+}
+
 legend{
-  border: 1px solid black;
+  border: 1px solid grey;
 }
 
 #numerotema{
+  text-align: center;
   max-width: 2em;
 }
 
